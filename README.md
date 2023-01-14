@@ -6,14 +6,19 @@ downloading two file [cfg](https://github.com/pjreddie/darknet/blob/master/cfg/y
 ```bash
 pip install opencv-python
 ```
-
 ##2
 
 ```bash
-install requirements.txt
+pip install deepface
 ```
 
-##3 run server
+##3
+
+```bash
+pip install -r requirements.txt
+```
+
+##4 run server
 
 ```bash
 uvicorn main:app
